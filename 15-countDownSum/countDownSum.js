@@ -1,6 +1,7 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+   if(num === 1) return sum + 1;
+    return this.countDownSum(num - 1, (sum += num))
   }
 }
 

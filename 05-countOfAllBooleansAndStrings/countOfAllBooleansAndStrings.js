@@ -1,5 +1,13 @@
 function countOfAllBooleansAndStrings(arr) {
-  // Insert code here;
+let counter= 0;
+
+arr.forEach((number) =>{
+  if (typeof number === "boolean" || typeof number === "string")
+{
+  counter++;
+}
+});
+return counter;
 }
 
 // Do not edit this line;

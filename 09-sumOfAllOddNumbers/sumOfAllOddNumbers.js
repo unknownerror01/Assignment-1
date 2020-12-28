@@ -1,5 +1,12 @@
 function sumOfAllOddNumbers(nums) {
-  // Insert code here;
+  let sum = 0;
+
+  nums.forEach((num) => {
+    if (nums % 2 === 1) {
+      sum++;
+    }
+  });
+  return sum;
 }
 
 // Do not edit this line;
